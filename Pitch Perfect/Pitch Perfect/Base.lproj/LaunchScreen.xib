@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PitchPerfectLogo" translatesAutoresizingMaskIntoConstraints="NO" id="iHl-DA-F0k">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pitch Perfect" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DAI-tt-Nlf">
+                    <rect key="frame" x="108" y="32" width="196.5" height="42"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by Jorge Plaza" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWQ-gr-bcA">
+                    <rect key="frame" x="126" y="686" width="160.5" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="cWQ-gr-bcA" secondAttribute="bottom" constant="20" id="2zk-Og-Sqr"/>
+                <constraint firstItem="DAI-tt-Nlf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="32" id="SHh-rx-IOJ"/>
+                <constraint firstAttribute="bottom" secondItem="iHl-DA-F0k" secondAttribute="bottom" id="YXN-dZ-SBH"/>
+                <constraint firstAttribute="trailing" secondItem="iHl-DA-F0k" secondAttribute="trailing" id="fgh-dN-Ms4"/>
+                <constraint firstItem="iHl-DA-F0k" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="jAB-Oc-pFy"/>
+                <constraint firstItem="iHl-DA-F0k" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="jZ7-QI-YWf"/>
+                <constraint firstAttribute="centerX" secondItem="DAI-tt-Nlf" secondAttribute="centerX" id="qtX-cQ-H4y"/>
+                <constraint firstAttribute="centerX" secondItem="cWQ-gr-bcA" secondAttribute="centerX" id="rK5-5S-yFs"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+            <point key="canvasLocation" x="548" y="455"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="PitchPerfectLogo" width="1024" height="1024"/>
+    </resources>
+</document>
